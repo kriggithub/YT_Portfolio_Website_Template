@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kurt — Home</title>
+  <meta name="description" content="Kurt Riggin — Biostatistician and YouTuber.">
+  <meta property="og:title" content="Kurt Riggin">
+  <meta property="og:description" content="Biostatistician and YouTuber. Research, R packages and videos.">
+  <meta name="theme-color" content="#050505">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='black'/><text x='50' y='70' font-size='62' font-family='monospace' font-weight='700' fill='white' text-anchor='middle'>K</text></svg>">
+</head>
+<body>
+  <div class="bg-glow"><span></span><span></span><span></span></div>
+  <div class="bg-grid"></div>
+  <div class="bg-grid bg-grid-lit"></div>
+  <div class="spotlight"></div>
+  <div class="progress"></div>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">kurt<span class="dot">.</span>dev</a>
+      <button class="kbd-btn" id="cmdk-open" aria-label="Open command palette"><span>⌘K</span></button>
+      <nav class="tabs">
+        <a href="index.html">Home</a>
+        <a href="academic.html">Academic</a>
+        <a href="youtube.html">YouTube</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <canvas id="network" aria-hidden="true"></canvas>
+      <div>
+        <div class="hero-badge"><span class="pulse"></span> <span data-scramble>Data, science &amp; stories</span></div>
+        <h1>Hi, I'm <span class="gradient-text">Kurt</span></h1>
+        <p class="typing-line">I'm <span class="article">a</span> <span class="typed gradient-text"></span><span class="cursor"></span></p>
+        <div class="socials" data-socials></div>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="academic.html">View my research</a>
+          <a class="btn btn-ghost" href="youtube.html">Watch my videos</a>
+        </div>
+      </div>
+      <div class="hint">move your cursor · press <kbd>⌘K</kbd></div>
+    </section>
+    <div class="marquee" aria-hidden="true"><div class="marquee-track">
+      <span>Biostatistics</span><span>R</span><span>GLMMs</span><span>Bayesian inference</span><span>Ecology</span><span>Data visualization</span><span>PERMANOVA</span><span>YouTube</span><span>Storytelling</span><span>Open source</span>
+      <span>Biostatistics</span><span>R</span><span>GLMMs</span><span>Bayesian inference</span><span>Ecology</span><span>Data visualization</span><span>PERMANOVA</span><span>YouTube</span><span>Storytelling</span><span>Open source</span>
+    </div></div>
+
+    <section>
+      <div class="container">
+        <div class="feature reveal clt">
+          <div>
+            <p class="eyebrow">// Live simulation</p>
+            <h3>The central limit theorem, live.</h3>
+            <p>Each dot is the mean of 12 random draws. Watch thousands of them pile up into a bell curve, the idea most of statistics is built on.</p>
+            <div class="clt-stats"><div><b id="clt-n">0</b><span>samples</span></div><div><b id="clt-mu">0.00</b><span>mean</span></div><div><b id="clt-sd">0.00</b><span>std. dev.</span></div></div>
+            <button class="btn btn-ghost" id="clt-reset" style="margin-top:18px">Reset simulation</button>
+          </div>
+          <canvas id="clt" aria-label="Animated histogram forming a normal distribution"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding-top:0">
+      <div class="container">
+        <p class="eyebrow reveal">// What I do</p>
+        <h2 class="reveal" style="margin-bottom:28px">Two sides, one curiosity.</h2>
+        <div class="grid">
+          <a class="card reveal" href="academic.html"><div class="card-icon">01</div><h3>Biostatistics</h3><p>Statistical models and open-source R tools for ecological questions, from deep-sea diets to forest edges.</p><span class="card-link">Explore research →</span></a>
+          <a class="card reveal" href="youtube.html"><div class="card-icon">02</div><h3>YouTube</h3><p>Videos that make statistics approachable, plus a look behind the scenes of research life.</p><span class="card-link">Watch videos →</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© <span data-year></span> Kurt Riggin. Built with plain HTML, CSS &amp; JS.</span>
+      <div class="socials" data-socials></div>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/fx.js"></script>
+</body>
+</html>
