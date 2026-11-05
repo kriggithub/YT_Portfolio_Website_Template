@@ -7,9 +7,11 @@ This is the portfolio site I built from scratch with Claude Code in a timed
 - 🌐 **Live demo (this exact code):** https://kriggithub.github.io/YT_Portfolio_Website_Template/
 - 🧑‍💻 **My current portfolio (it has changed since the video):** https://kriggithub.github.io
 
-> **Frozen at the end of the video.** This repo matches what you saw when the
-> timer hit 30:00 (source commit `72db7ff` of the original repo). It isn't
-> maintained, so fork it and make it yours.
+> **Frozen at the end of the video.** This is the code you saw when the timer
+> hit 30:00 (source commit `72db7ff` of the original repo), with my personal
+> details swapped for placeholders (`Your Name`, `your-username`,
+> `you@example.com`) so you can fill in your own. It isn't maintained, so
+> fork it and make it yours.
 
 ## What's in it
 
@@ -24,7 +26,8 @@ count-up stats and a skills marquee.
 2. Change the content. The easy way is the way I built it: open the repo in
    Claude Code and paste something like this:
 
-   > Replace Kurt's details everywhere in this site with mine. Name: ___. What I
+   > Replace the placeholder details everywhere in this site (Your Name,
+   > your-username, you@example.com, "Project title", etc.) with mine. Name: ___. What I
    > do: ___. Links: GitHub ___, LinkedIn ___, YouTube ___, email ___. Replace
    > the Academic page with ___ (or turn it into a Projects page). Keep the
    > design. If the repo isn't named `YT_Portfolio_Website_Template`, also fix
@@ -38,7 +41,7 @@ count-up stats and a skills marquee.
    | hero text, skills marquee, the two cards | `index.html` |
    | research, R packages, publications, CV button | `academic.html` |
    | channel name and handle | `youtube.html` |
-   | page titles, meta tags, footer, `kurt.dev` logo | top and bottom of every `.html` file |
+   | page titles, meta tags, footer, `yourname.dev` logo, favicon letter | top and bottom of every `.html` file |
    | colors and fonts | variables at the top of `css/style.css` |
    | 404 page links | `404.html` uses `/<repo-name>/...` paths, so change them to your repo's name (or to `/` if your repo is `<username>.github.io`) |
 

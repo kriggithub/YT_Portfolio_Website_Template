@@ -3,15 +3,15 @@
    ========================================================= */
 
 const SITE = {
-  name: "Kurt",
+  name: "Your Name",
   // Words cycled by the typing effect on the home page
-  roles: ["Biostatistician.", "YouTuber."],
+  roles: ["Data Scientist.", "YouTuber."],
 
   links: {
-    github:   "https://github.com/kriggithub",
-    linkedin: "https://www.linkedin.com/in/kurtriggin/",
-    youtube:  "https://www.youtube.com/@KurtRiggin",
-    email:    "mailto:krigginbusiness@gmail.com",
+    github:   "https://github.com/your-username",
+    linkedin: "https://www.linkedin.com/in/your-handle/",
+    youtube:  "https://www.youtube.com/@YourChannel",
+    email:    "mailto:you@example.com",
   },
 };
 

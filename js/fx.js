@@ -258,8 +258,8 @@
   }
 
   /* ---------- Hello, devs ---------- */
-  console.log("%cHi, I'm Kurt.", "font: 700 28px Inter, sans-serif; color: #fff; background: #000; padding: 8px 14px; border-radius: 8px;");
-  console.log("%cBiostatistician · YouTuber · " + SITE.links.github + "\nTry ⌘K, or type 'stats' anywhere.", "color: #888; font-family: monospace;");
+  console.log("%cHi, I'm " + SITE.name + ".", "font: 700 28px Inter, sans-serif; color: #fff; background: #000; padding: 8px 14px; border-radius: 8px;");
+  console.log("%c" + SITE.roles.join(" · ").replace(/\./g, "") + " · " + SITE.links.github + "\nTry ⌘K, or type 'stats' anywhere.", "color: #888; font-family: monospace;");
 })();
 
 /* ---------- CLT simulation ---------- */
